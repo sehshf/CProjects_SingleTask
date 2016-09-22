@@ -105,7 +105,9 @@ void SingleTaskStep(void)
 
 	// Detect rise positive
 	if (sinVal > 0 && sinValOld <= 0)
+	{
 		printf("sinVal = %lf\n", sinVal);
+	}
 
 	sinValOld = sinVal;
 

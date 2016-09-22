@@ -16,11 +16,11 @@
 typedef enum {FALSE  = 0, TRUE   = 1}  	boolean_T;
 typedef enum {PASSED = 0, FAILED = 1}  	pf_T;
 typedef unsigned char 					uint8_T;
-typedef unsigned int 					uint16_T;
-typedef unsigned long int 				uint32_T;
+typedef unsigned short int				uint16_T;
+typedef unsigned int 					uint32_T;
 typedef signed char 					int8_T;
-typedef signed int 						int16_T;
-typedef signed long int 				int32_T;
+typedef signed short int				int16_T;
+typedef signed int 						int32_T;
 typedef float 							real32_T;
 typedef double 							real64_T;
 
@@ -38,10 +38,10 @@ typedef double 							real64_T;
 #define MIN_UINT16 	  0
 #define MAX_INT16     32767
 #define MIN_INT16	 -32768
-#define MAX_UINT32    4294967295lu
-#define MIN_UINT32 	  0lu
-#define MAX_INT32 	  2147483647l
-#define MIN_INT32    -2147483648l
+#define MAX_UINT32    4294967295UL
+#define MIN_UINT32 	  0UL
+#define MAX_INT32 	  2147483647L
+#define MIN_INT32    -2147483648L
 
 // Bit values
 #define BIT0            0x0001
